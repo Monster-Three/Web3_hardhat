@@ -1,4 +1,19 @@
+#npm、npx、npx、nrm的区别
+
+nvm，全称是Node Version Manager，是用来管理node.js的版本的。
+因为Node.js在不断的被完善，分版本迭代更新。
+当前版本：nodejs.org/en/download…
+历史版本：nodejs.org/en/download…
+安装命令：nvm install 22（安装22版本）
+
+npm，全称是Node Package Manager，是以JavaScript编写的软件包管理工具。用来安装node项目所需要的一堆依赖包。
+在运行一些node项目的时候，我们经常需要在项目的根目录下先执行命令
+npm install
+该命令就是根据项目根目录下的package.json配置文件，通过npm工具来安装项目所需要的一堆依赖包。
+
 npx
 npm从5.2版本开始，增加了npx命令，安装npm的时候，会自动安装npx。
 npx主要是用来调用项目内部安装的模块。比如，我们在开发环境下安装了webpack
 npm install webpack --save-dev
+
+nrm（node registry manager）主要是用来管理 npm中镜像地址的，每次设置镜像的时候都需要输入一长串的地址，nrm 可以将这些地址存起来，用的时候通过镜像名称直接设置。
