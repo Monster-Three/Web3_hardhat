@@ -1,0 +1,4 @@
+npx
+npm从5.2版本开始，增加了npx命令，安装npm的时候，会自动安装npx。
+npx主要是用来调用项目内部安装的模块。比如，我们在开发环境下安装了webpack
+npm install webpack --save-dev
