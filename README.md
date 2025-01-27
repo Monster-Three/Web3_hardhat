@@ -13,6 +13,7 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
 #npm、npx的区别
+
 nvm，全称是Node Version Manager，是用来管理node.js的版本的。
 因为Node.js在不断的被完善，分版本迭代更新。
 当前版本：nodejs.org/en/download…
